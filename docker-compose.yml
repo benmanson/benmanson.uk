@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  web:
+    container_name: "web"
+    restart: "unless-stopped"
+    image: "jekyll/jekyll:4.2.2"
+    ports:
+      - "4000:4000"
+    volumes:
+      - "./src:/srv/jekyll:Z"
+    command: "jekyll serve"
