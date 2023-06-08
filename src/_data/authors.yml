@@ -1,7 +1,7 @@
 Ben Manson:
   name        : "Ben Manson"
-  bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
+  bio         : "Backend developer. Python, AWS, Java."
+  avatar      : "/assets/images/template.jpg"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
